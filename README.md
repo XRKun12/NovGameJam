@@ -1,6 +1,6 @@
 # NovGameJam
 Prompt = cliché\
-The more things change, the more they stay the same\
+The more things change, the more they stay the same
   1. A game that's constantly changing mechanics and you have to collect () to reverse the effects.\
 1st level is a dish fit for the gods\
   Mechanics are:\
