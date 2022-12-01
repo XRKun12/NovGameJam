@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CapsuleCollider2D))]
@@ -80,6 +81,11 @@ public class CharacterController2D : MonoBehaviour
         if (mainCamera)
         {
             mainCamera.transform.position = new Vector3(t.position.x, cameraPos.y, cameraPos.z);
+        }
+
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            SceneManager.LoadScene("Main Menu");
         }
     }
 
